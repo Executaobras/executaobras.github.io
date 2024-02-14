@@ -1,6 +1,6 @@
 .big-img{
     height: 88vh;
-    width: 100%;
+    width: calc(100vw - (100vw - 100%));
 }
 
 h1{
