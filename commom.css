@@ -77,8 +77,28 @@ body{
 }
 
 .nav-link{
-    padding-right: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
     color:#f07420;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: lightgray;
+    text-decoration: none;
+}
+
+.black{
+    color: black;
+}
+
+.gray{
+    color: #303030;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.orange{
+    color:#f07420;
 }

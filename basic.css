@@ -12,6 +12,7 @@ h1{
     flex-direction: row;
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-bottom: 2vh;
     background-color: #f07420;
     height: fit-content;
 }
@@ -22,7 +23,7 @@ h1{
 }
 
 .quem-somos-paragraph{
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: bold;
     color: white;
     padding-bottom: 1vh;
@@ -32,13 +33,56 @@ h1{
     padding: 5vh;
 }
 
-.name{
-    color: black;
-}
-
 .about-us-btn{
+    text-decoration: none;
+    padding: 1vh;
+    padding-left: .5vh;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
-    
+}
+
+.about-us-btn:hover{
+    background-color: black;
+    font-weight:lighter;
+    color: #f07420;
+}
+
+.services{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+.services-txt{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.services-paragraph{
+    font-size: 1.25rem;
+}
+
+.services-img{
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    margin: 5vh;
+}
+
+.services-btn{
+    font-size: 1.5rem; 
+    padding: 1vh;
+    text-decoration: none;
+    color: black;
+}
+
+.services-btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: black;
 }
