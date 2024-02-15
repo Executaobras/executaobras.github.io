@@ -102,3 +102,37 @@ body{
 .orange{
     color:#f07420;
 }
+
+footer{
+    display: flex;
+    background-color: #e4e4e4;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navigator{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.footer-extra{
+    width: 30vw;
+}
+
+.footer-extra-2{
+    font-size: 1vw;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-name-extra{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
