@@ -39,12 +39,14 @@ body{
 }
 
 .etc-header{
+    display: flex;
     width: auto;
+    justify-content: center;
 }
 
 .etc-ul{
     flex-direction: row;
-    display: block;
+    display: inline-block;
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -74,17 +76,22 @@ body{
     display: inline;
     float: left;
     vertical-align: middle;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .nav-link{
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     margin-right: 10px;
     color:#f07420;
     font-size: 1.25rem;
     font-weight: bold;
     background-color: lightgray;
     text-decoration: none;
+    width: fit-content;
 }
 
 .black{
@@ -113,14 +120,18 @@ footer{
 .footer-navigator{
     width: auto;
     display: flex;
-    flex-direction: row;
     justify-items: stretch;
     justify-content: space-evenly;
     align-content: space-between;
 }
 
 .footer-extra{
-    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{
+    align-self: center;
 }
 
 .footer-extra-2{
@@ -135,4 +146,50 @@ ul{
 .footer-name-extra{
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 1001px) {
+    .footer-navigator{
+        flex-direction: row;
+    }
+
+    .footer-img{
+        width: 30vw;
+        height: auto;
+    }
+
+    .etc-ul{
+        visibility: visible;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px){
+    footer{
+        font-size: 1.5rem;
+    }
+
+    .footer-name-extra{
+        font-size: 1.75rem;
+    }
+
+    .footer-navigator{
+        flex-direction: column;
+    }
+
+    .footer-img{
+        width: 50vw;
+        height: auto;
+    }
+
+    .etc-ul{
+        visibility: hidden;
+        display: none;
+    }
+
+    .link-ul{
+        width: 5vw;
+        height: auto;
+    }
 }
