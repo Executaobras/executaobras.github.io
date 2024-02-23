@@ -1,0 +1,14 @@
+@media screen and (max-width: 999px) {
+    .service-paragraph{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .service-paragraph{
+        font-size: 1.25rem;
+    }
+}
+
+
+

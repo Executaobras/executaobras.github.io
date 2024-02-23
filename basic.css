@@ -1,4 +1,4 @@
-.big-img{
+.big-img img{
     height: 88vh;
     width: calc(100vw - (100vw - 100%));
 }
@@ -144,7 +144,7 @@ ul{
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 999px) {
     .quem-somos-paragraph{
         font-size: 1.5rem;
     }
@@ -155,6 +155,14 @@ ul{
 
     .imageDescription{
         font-size: 2rem;
+    }
+    .big-img-dsk{
+        visibility: hidden;
+        display: none;
+    }
+    .big-img-mob{
+        visibility: visible;
+        display: inline-block;
     }
 }
 
@@ -169,6 +177,15 @@ ul{
 
     .imageDescription{
         font-size: 1.5rem;
+    }
+
+    .big-img-dsk{
+        visibility: visible;
+        display: inline-block;
+    }
+    .big-img-mob{
+        visibility: hidden;
+        display: none;
     }
 }
 
