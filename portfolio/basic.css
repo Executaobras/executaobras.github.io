@@ -2,10 +2,20 @@
     .service-paragraph{
         font-size: 1.6rem;
     }
+
+    .service{
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .service-paragraph{
         font-size: 1.25rem;
+    }
+
+    .service{
+        padding-right: 20vw;
+        padding-left: 20vw;
     }
 }
