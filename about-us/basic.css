@@ -1,0 +1,108 @@
+.value-ul p {
+    margin-top: 0;
+}
+
+.objectives-ul p {
+    margin-top: 0;
+}
+
+.value-ul hr {
+    background-color: #f07420;
+}
+
+@media screen and (max-width: 999px) {
+    p {
+        font-size: 1.6rem;
+    }
+
+    .value-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .value-ul li {
+        max-width: fit-content;
+    }
+
+    .value-ul hr {
+        width: 80vw;
+        height: 5px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .objectives-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .objectives-ul li {
+        max-width: fit-content;
+    }
+
+    .objectives-ul hr {
+        width: 80vw;
+        height: 5px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .values-div{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .about-us-paragraph{
+        width: 80vw;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 1000px) {
+    p {
+        font-size: 1.25rem;
+    }
+
+    .value-ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .value-ul li {
+        max-width: 12vw;
+    }
+
+    .value-ul hr {
+        width: 1px;
+        height: auto;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .objectives-ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .objectives-ul li {
+        max-width: fit-content;
+    }
+
+    .objectives-ul hr {
+        width: 1px;
+        height: auto;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .values-div{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .about-us-paragraph{
+        width: 40vw;
+    }
+}
